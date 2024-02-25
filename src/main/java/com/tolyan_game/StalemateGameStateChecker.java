@@ -18,6 +18,7 @@ public class StalemateGameStateChecker extends GameStateChecker {
                 return GameState.ONGOING;
             }
         }
+
         return GameState.STALEMATE;
     }
 
